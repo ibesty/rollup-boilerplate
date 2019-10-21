@@ -1,0 +1,22 @@
+{
+  "name": "rollup-boilerplate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./bin/bundle.common.js",
+  "module": "./bin/bundle.es.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/preset-env": "^7.6.3",
+    "rollup": "^1.24.0",
+    "rollup-plugin-babel": "^4.3.3"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0"
+  }
+}
